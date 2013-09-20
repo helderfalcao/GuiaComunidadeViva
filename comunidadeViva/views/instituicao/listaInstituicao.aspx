@@ -9,12 +9,9 @@
 <body>
     <form id="form1" runat="server">
     <div>
+        <a id="novo" runat="server" href="~/views/instituicao/instituicao.aspx?parametro=novo">Novo</a>
 
-
-
-        <a id="novo" runat="server" href="~/instituicao/instituicao.aspx?parametro=novo">Novo</a>
-
-        <a id="editar" runat="server" href="~/instituicao/instituicao.aspx?idInstituicao=17&parametro=editar">Editar</a>
+        <a id="editar" runat="server" href="~/views/instituicao/instituicao.aspx?idInstituicao=17&parametro=editar">Editar</a>
 
     
     </div>

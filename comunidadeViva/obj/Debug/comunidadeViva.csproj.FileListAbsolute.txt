@@ -24,3 +24,29 @@ c:\users\juliano\documents\visual studio 2012\Projects\comunidadeViva\comunidade
 c:\users\juliano\documents\visual studio 2012\Projects\comunidadeViva\comunidadeViva\obj\Debug\comunidadeViva.pdb
 C:\Users\Juliano\Documents\Visual Studio 2012\Projects\comunidadeViva\comunidadeViva\bin\EntityFramework.SqlServer.dll
 C:\Users\Juliano\Documents\Visual Studio 2012\Projects\comunidadeViva\comunidadeViva\bin\EntityFramework.SqlServer.xml
+C:\Users\Falcao\GuiaComunidadeViva\GuiaComunidadeViva\comunidadeViva\bin\comunidadeViva.dll
+C:\Users\Falcao\GuiaComunidadeViva\GuiaComunidadeViva\comunidadeViva\bin\comunidadeViva.pdb
+C:\Users\Falcao\GuiaComunidadeViva\GuiaComunidadeViva\comunidadeViva\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Falcao\GuiaComunidadeViva\GuiaComunidadeViva\comunidadeViva\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\Falcao\GuiaComunidadeViva\GuiaComunidadeViva\comunidadeViva\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Falcao\GuiaComunidadeViva\GuiaComunidadeViva\comunidadeViva\bin\DotNetOpenAuth.Core.dll
+C:\Users\Falcao\GuiaComunidadeViva\GuiaComunidadeViva\comunidadeViva\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Falcao\GuiaComunidadeViva\GuiaComunidadeViva\comunidadeViva\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Falcao\GuiaComunidadeViva\GuiaComunidadeViva\comunidadeViva\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Falcao\GuiaComunidadeViva\GuiaComunidadeViva\comunidadeViva\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Falcao\GuiaComunidadeViva\GuiaComunidadeViva\comunidadeViva\bin\EntityFramework.dll
+C:\Users\Falcao\GuiaComunidadeViva\GuiaComunidadeViva\comunidadeViva\bin\EntityFramework.SqlServer.dll
+C:\Users\Falcao\GuiaComunidadeViva\GuiaComunidadeViva\comunidadeViva\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\Falcao\GuiaComunidadeViva\GuiaComunidadeViva\comunidadeViva\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Falcao\GuiaComunidadeViva\GuiaComunidadeViva\comunidadeViva\bin\System.Web.Providers.dll
+C:\Users\Falcao\GuiaComunidadeViva\GuiaComunidadeViva\comunidadeViva\bin\EntityFramework.xml
+C:\Users\Falcao\GuiaComunidadeViva\GuiaComunidadeViva\comunidadeViva\bin\EntityFramework.SqlServer.xml
+C:\Users\Falcao\GuiaComunidadeViva\GuiaComunidadeViva\comunidadeViva\bin\DotNetOpenAuth.Core.xml
+C:\Users\Falcao\GuiaComunidadeViva\GuiaComunidadeViva\comunidadeViva\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Falcao\GuiaComunidadeViva\GuiaComunidadeViva\comunidadeViva\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Falcao\GuiaComunidadeViva\GuiaComunidadeViva\comunidadeViva\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Falcao\GuiaComunidadeViva\GuiaComunidadeViva\comunidadeViva\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Falcao\GuiaComunidadeViva\GuiaComunidadeViva\comunidadeViva\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Falcao\GuiaComunidadeViva\GuiaComunidadeViva\comunidadeViva\obj\Debug\comunidadeViva.csprojResolveAssemblyReference.cache
+C:\Users\Falcao\GuiaComunidadeViva\GuiaComunidadeViva\comunidadeViva\obj\Debug\comunidadeViva.dll
+C:\Users\Falcao\GuiaComunidadeViva\GuiaComunidadeViva\comunidadeViva\obj\Debug\comunidadeViva.pdb

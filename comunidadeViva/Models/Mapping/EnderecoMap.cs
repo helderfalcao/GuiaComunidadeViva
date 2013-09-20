@@ -32,12 +32,6 @@ namespace comunidadeViva.Models.Mapping
             this.Property(t => t.LinkMapa)
                 .HasMaxLength(100);
 
-            this.Property(t => t.Bairro)
-                .HasMaxLength(50);
-
-            this.Property(t => t.Estado)
-                .HasMaxLength(50);
-
             // Table & Column Mappings
             this.ToTable("Endereco");
             this.Property(t => t.IdEndereco).HasColumnName("IdEndereco");
@@ -49,8 +43,6 @@ namespace comunidadeViva.Models.Mapping
             this.Property(t => t.PontoReferencia).HasColumnName("PontoReferencia");
             this.Property(t => t.LinkMapa).HasColumnName("LinkMapa");
             this.Property(t => t.IdInstituicao).HasColumnName("IdInstituicao");
-            this.Property(t => t.Bairro).HasColumnName("Bairro");
-            this.Property(t => t.Estado).HasColumnName("Estado");
 
             // Relationships
             this.HasOptional(t => t.Instituicao)

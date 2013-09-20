@@ -47,7 +47,7 @@
                 </section>
                 <nav>
                     <ul id="menu">
-                        <li><a id="A1" runat="server" href="~/instituicao/listaInstituicao.aspx">Instituições</a></li>
+                        <li><a id="A1" runat="server" href="~/views/instituicao/listaInstituicao.aspx">Instituições</a></li>
                         <li><a runat="server" href="~/">Home</a></li>
                         <li><a runat="server" href="~/About.aspx">About</a></li>
                         <li><a runat="server" href="~/Contact.aspx">Contact</a></li>

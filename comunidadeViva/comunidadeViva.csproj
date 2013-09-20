@@ -187,8 +187,8 @@
     <Content Include="Images\orderedList7.png" />
     <Content Include="Images\orderedList8.png" />
     <Content Include="Images\orderedList9.png" />
-    <Content Include="instituicao\instituicao.aspx" />
-    <Content Include="instituicao\listaInstituicao.aspx" />
+    <Content Include="views\instituicao\instituicao.aspx" />
+    <Content Include="views\instituicao\listaInstituicao.aspx" />
     <Content Include="packages.config" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
@@ -265,18 +265,23 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="instituicao\instituicao.aspx.cs">
+    <Compile Include="Models\Base\BaseDao.cs" />
+    <Compile Include="Models\Dao\AgendaDao.cs" />
+    <Compile Include="Models\Dao\InstituicaoDao.cs" />
+    <Compile Include="Models\DBComunidadeVivaContext.cs" />
+    <Compile Include="Models\NE\InstituicaoNE.cs" />
+    <Compile Include="views\instituicao\instituicao.aspx.cs">
       <DependentUpon>instituicao.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="instituicao\instituicao.aspx.designer.cs">
+    <Compile Include="views\instituicao\instituicao.aspx.designer.cs">
       <DependentUpon>instituicao.aspx</DependentUpon>
     </Compile>
-    <Compile Include="instituicao\listaInstituicao.aspx.cs">
+    <Compile Include="views\instituicao\listaInstituicao.aspx.cs">
       <DependentUpon>listaInstituicao.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="instituicao\listaInstituicao.aspx.designer.cs">
+    <Compile Include="views\instituicao\listaInstituicao.aspx.designer.cs">
       <DependentUpon>listaInstituicao.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\Agendum.cs" />

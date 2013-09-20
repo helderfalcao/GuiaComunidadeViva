@@ -15,7 +15,7 @@ namespace comunidadeViva.Models.Mapping
                 .HasMaxLength(50);
 
             this.Property(t => t.RazaoSocial)
-                .HasMaxLength(50);
+                .HasMaxLength(100);
 
             this.Property(t => t.Descricao)
                 .HasMaxLength(5000);

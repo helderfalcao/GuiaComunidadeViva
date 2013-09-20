@@ -14,9 +14,6 @@ namespace comunidadeViva.Models.Mapping
             this.Property(t => t.Codigo)
                 .HasMaxLength(50);
 
-            this.Property(t => t.Descricao)
-                .HasMaxLength(5000);
-
             // Table & Column Mappings
             this.ToTable("Atividade");
             this.Property(t => t.IdAtividade).HasColumnName("IdAtividade");

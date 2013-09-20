@@ -14,8 +14,6 @@ namespace comunidadeViva.Models
         public string PontoReferencia { get; set; }
         public string LinkMapa { get; set; }
         public Nullable<int> IdInstituicao { get; set; }
-        public string Bairro { get; set; }
-        public string Estado { get; set; }
         public virtual Instituicao Instituicao { get; set; }
     }
 }

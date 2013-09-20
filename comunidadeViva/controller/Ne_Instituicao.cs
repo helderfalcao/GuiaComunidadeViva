@@ -9,7 +9,7 @@ using System.Web.UI.WebControls;
 
 namespace comunidadeViva.controller
 {
-    public class Ne_Instituicao
+    public class Ne_Instituicaos
     {
         public void GravarInstituicao(Instituicao objInstituicao)
         {

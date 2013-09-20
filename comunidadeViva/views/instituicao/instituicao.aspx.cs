@@ -7,9 +7,10 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
+
 namespace comunidadeViva.instituicao
 {
-
+    using Models.NE;
     public partial class instituicao : System.Web.UI.Page
     {
 
@@ -35,20 +36,13 @@ namespace comunidadeViva.instituicao
  //               Ne_Inst.BuscarInstituicao(intIdInstituicao);
 
                 //lblRetorno.Text = strInstituicao;
-                using (DbComunicadaVivaContext contexto = new DbComunicadaVivaContext())
+
+                
                 {
 
-                    IQueryable query = from A in contexto.Instituicaos
-                                       join B in contexto.Enderecoes on A.IdInstituicao equals B.IdInstituicao
-                                       join C in contexto.Contatoes on B.IdInstituicao equals C.IdInstituicao
-                                       where A.IdInstituicao == (intIdInstituicao)
-                                       orderby A.RazaoSocial
-                                       select A;
-
-
-                    foreach (Instituicao item in query)
-                    {
-
+                    NE_Instituicao ne = new NE_Instituicao();
+                    Instituicao item = ne.findById(intIdInstituicao);
+                                        
                         tbxIdInstituicao.Text = Convert.ToString(item.IdInstituicao);
                         txbInstituicao.Text = item.RazaoSocial;
                         txtFantasia.Text = item.NomeFantasia;
@@ -62,9 +56,9 @@ namespace comunidadeViva.instituicao
                             tbxLogradouro.Text = end.Logradouro;
                             tbxNumero.Text = end.Numero;
                             tbcComplemento.Text = end.Complemento;
-                            tbxBairro.Text = end.Bairro;
+                            //tbxBairro.Text = end.Bairro;
                             tbxCidade.Text = end.Cidade;
-                            tbxEstado.Text = end.Estado;
+                            //tbxEstado.Text = end.Estado;
                             tbxReferencia.Value = end.PontoReferencia;
                             LinkMapa.Text = end.LinkMapa;
 
@@ -81,7 +75,7 @@ namespace comunidadeViva.instituicao
 
                         }
 
-                    }
+                    
                 }
 
             }
@@ -111,9 +105,9 @@ namespace comunidadeViva.instituicao
                 objEndereco.Logradouro = tbxLogradouro.Text;
                 objEndereco.Numero = tbxNumero.Text;
                 objEndereco.Complemento = tbcComplemento.Text;
-                objEndereco.Bairro = tbxBairro.Text;
+                //objEndereco.Bairro = tbxBairro.Text;
                 objEndereco.Cidade = tbxCidade.Text;
-                objEndereco.Estado = tbxEstado.Text;
+                //objEndereco.Estado = tbxEstado.Text;
                 objEndereco.PontoReferencia = tbxReferencia.Value;
                 objEndereco.LinkMapa = LinkMapa.Text;
 
@@ -128,7 +122,7 @@ namespace comunidadeViva.instituicao
                 objInstituicao.Contatoes.Add(objContato);
                 objInstituicao.Enderecoes.Add(objEndereco);
 
-                Ne_Instituicao Ne_Inst = new Ne_Instituicao();
+                Ne_Instituicaos Ne_Inst = new Ne_Instituicaos();
                 Ne_Inst.GravarInstituicao(objInstituicao);
                  
             }
